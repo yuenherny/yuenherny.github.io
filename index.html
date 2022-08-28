@@ -3,8 +3,8 @@
 <html lang="en">
 
     <header>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="css/master.css">
+        <title>About me</title>
+        <link rel="stylesheet" href="css/main.css">
         <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
         <link rel="shortcut" href="favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width-device-width, initial-scale-1, shrink-to-fit=no">
@@ -12,22 +12,111 @@
         <meta name="robots" content="noindex, nofollow">
     </header>
 
-    <body>
-        <img src="images/nebula.jpg" width="75%" alt="banner">
-        <h1>My Portfolio</h1>
-        <h2>About Me</h2>
-        <p>I am a deep learning enthusiast, in Kuala Lumpur, Malaysia.</p>
-        <p>I have a BEng Mechanical from UTHM and is currently a master student in UM.</p>
-        <p>I am working as a data scientist in a startup in KL.</p>
-        <h2>Credential and Portfolio</h2>
-        <p><a href="resume.html">My Resume</a> | <a href="https://github.com/yuenherny">My GitHub</a></p>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:yuenhern.yu@gmail.com">yuenhern.yu@gmail.com</a></p>
+    <body>      
+        <section class="sidebar">
+            <div class="background"></div>
+            <img class="profile-pic" src="images/profile.jpg" alt="profile picture">
+            <h2><mark>Hello world!</mark></h2>
+            <h3><mark>I'm Yuen Hern. I am into data science, AI and technologies that made AI possible at scale.</mark></h3>
+            <a href="https://drive.google.com/file/d/1bJrzjeF00gJBUK_0lrKc_EJ7Tp1H_Owm/view?usp=sharing" download="Yu Yuen Hern - Resume.pdf">
+                <button class="btn">Resume</button>
+            </a>
+        </section>
+        <section class="intro-content">
+            <section class="one">
+                <h2>A bit about me</h2>
+                <h4>Originally trained as a mechanical engineer but found interest and passion in data science and AI.</h4>
+                <h4>Currently: 
+                    <ul>
+                        <li>Working (remotely!) on exciting data science projects at <a href="https://xpress.ai/">Xpress AI</a></li>
+                        <li>A Master student in data science at <a href="https://fsktm.um.edu.my/master-of-data-science-coursework">Universiti Malaya (UM)</a></li>
+                    </ul>
+                </h4>
+            </section>        
+            <section class="two">
+                <h2>Things I worked on</h2>
+                <h3>Data Science & STEM Salary Analysis from Levelsfyi</h3>
+                <h5>(Part of Master's coursework)</h5>
+                <p>
+                    <ul>
+                        <li>Analyzing data science and STEM salaries obtained from <a href="https://www.levels.fyi/">Levelsfyi website</a>.</li>
+                        <li><a href="https://github.com/yuenherny/um-wqd7003-ds-salary-analysis">Code here</a></li>
+                    </ul>
+                </p>
+                <h3>A Public Shiny App for Frog Monitoring</h3>
+                <h5>(Part of Master's coursework)</h5>
+                <p>
+                    <ul>
+                        <li>A web app with a simple charts that shows the count of frog species with particular year, and shows the count of frog species over time.</li>
+                        <li><a href="https://github.com/yuenherny/The-Katak-Detector">Code here</a></li>
+                        <li><a href="https://yuenherny.shinyapps.io/thekatakdetector/">App here</a></li>
+                    </ul>
+                </p>
+                <h3>A Public Web App for Validating Predictions from ML Models</h3>
+                <p>
+                    <ul>
+                        <li>Developed a public web app to validate the performance of their ML model on <a href="https://www.kaggle.com/datasets/brajeshmohapatra/term-deposit-prediction-data-set">Term Deposit Prediction Dataset by Brajesh Mahopatra on Kaggle</a>.</li>
+                        <li>Solutions are shielded from the users via secrets management in the Streamlit Share platform.</li>
+                        <li><a href="https://github.com/yuenherny/TermDepositSolutionChecker-WebApp">Code here</a></li>
+                        <li><a href="https://share.streamlit.io/yuenherny/termdepositsolutionchecker-webapp/main/webapp/streamlit_app.py">App here</a></li>
+                        <li><a href="https://yuenherny.medium.com/developing-a-ml-model-performance-validation-web-app-using-streamlit-97eb70d8d31">Medium article here</a></li>
+                    </ul>                    
+                </p>
+                <h3>Numerical Modelling and Simulation of Ocean Wave Energy at Malaysian Coast</h3>
+                <h4>Supervisor: Dr. Siti Habibah Shafiai</h4>
+                <p>
+                    <ul>
+                        <li>Employed a numerical method to assess the ocean wave energy resource at Malaysian coast.</li>
+                        <li>Developed a MATLAB code to validate the accuracy of the employed numerical method.</li>
+                        <li>Developed a MATLAB GUI for the validation code of the numerical model.</li>
+                        <li>Developed a MATLAB code for the application of numerical model on assessing the ocean wave energy resource.</li>
+                    </ul>
+                </p>
+                <h3>Final Year Project: Multi-objective Hybrid Renewable Energy Resource Optimisation using Improved Flower Pollination Algorithm</h3>
+                <h4>Supervisor: Assoc. Prof. Dr. Ong Pauline, Madam Hanani Abd Wahab</h4>
+                <p>
+                    <ul>
+                        <li>Determined the optimal sizing of a hybrid renewable energy system comprised of solar photovoltaics, wind turbines, batteries and a diesel engine.</li>
+                        <li>Utilised evolutionary algorithms to optimise the appropriate installation capacity of the components, with respect to solar insolation, wind speed, ambient temperature and electricity consumption of an area of interest.</li>
+                        <li>Conducted sensitivity analysis on the proposed hybrid renewable energy system with respect to variation of solar and wind.</li>
+                        <li>All experimental and analytical tests are conducted numerically using MATLAB.</li>
+                    </ul>
+                </p>
+                <h3>Design and Fabrication of Quadrupedal Walking Robot for ROBOCON Malaysia 2019</h3>
+                <h4>Team advisor: Dr Chia Kim Seng</h4>
+                <p>
+                    <ul>
+                        <li>Research and develop model design of quadrupedal robot concepts using SOLIDWORKS.</li>
+                        <li>Create a conceptual and eventually a working prototype from CAD design with regard to available resources using hand tools and bench equipment as a proof of concept for university fund negotiation talks.</li>
+                        <li>Optimised a manually-operated robot which will be able to move on wheels, pick up, pass and throw an item.</li>
+                        <li>Applied Fused Deposition Modelling technique to fabricate custom-made robot parts such as gears, couplings and sensor mountings using Ender 3 Pro 3D printer and Ultimaker Cura slicer software.</li>
+                        <li>Fabricated two autonomous and one manually-operated robot using mitre saw, bench drill, angle grinder, and hand tools.</li>
+                    </ul>
+                </p>
+                <h3>Design and Fabrication of Pass-and-shoot Robot for ROBOCON Malaysia 2018</h3>
+                <h4>Team advisor: Dr Chia Kim Seng</h4>
+                <p>
+                    <ul>
+                        <li>Designed a manual-operated robot with clamping function using SOLIDWORKS.</li>
+                        <li>Fabricated aluminium omniwheel shaft for Vexta 30W motor using Harrison M300 lathe machine.</li>
+                        <li>Fabricated a manual-operated robot with clamping function based on CAD design using hand tools and bench equipment.</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="three">
+                <h3>Let's get in touch!</h3>
+                <br>
+                <a href="https://github.com/yuenherny"><img src="images/github.png" alt="GitHub" class="icon"></a>
+                <a href="https://www.linkedin.com/in/yuenhernyu/"><img src="images/linkedin.png" alt="Linkedin" class="icon"></a>
+                <a href="https://medium.com/@yuenherny"><img src="images/medium.png" alt="Medium" class="icon"></a>
+                <a href="mailto:yuenhern.yu@gmail.com"><img src="images/gmail.png" alt="Gmail" class="icon"></a>
+            </section>
+        </section>
     </body>
 
     <footer>
         <hr>
-        <code>Copyright (c) 2022 Yuen Hern, Yu</code>
+        <p class="footer">Copyright (c) 2022 Yuen Hern, Yu</p>
     </footer>
 
 </html>
