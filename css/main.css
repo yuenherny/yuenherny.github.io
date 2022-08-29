@@ -151,7 +151,7 @@ mark {
 	height: 100%;
 	width: 35%;
 	position: fixed;
-	background-image: url("../images/sidebar-bg-70.png");
+	background-image: url("../images/sidebar-bg2-80.png");
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -181,6 +181,12 @@ mark {
 .sidebar a:hover, .sidebar a.active {
 	color: #262626;
 }
+.sidebar .contact {
+	text-align: center;
+}
+/* .sidebar .contact h3 {
+	text-align: center;
+} */
 /* ==========================================================================
 	$Profile Pic
 ========================================================================== */
@@ -240,12 +246,6 @@ mark {
 .intro-content li {
 	line-height: 30px;
 	/* letter-spacing: 1px; */
-}
-.intro-content .three {
-	text-align: center;
-}
-.intro-content .three h3 {
-	text-align: center;
 }
 /* ------------------------------------------------------------------------------
 	$Work
