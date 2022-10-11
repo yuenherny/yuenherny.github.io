@@ -1,3 +1,4 @@
+name: Ignore archived files
 on:
   push:
     paths-ignore:
