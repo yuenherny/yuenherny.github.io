@@ -1,0 +1,7 @@
+on:
+  push:
+    paths-ignore:
+      - archived/*
+      - README.md
+      - .gitignore
+      - LICENSE
