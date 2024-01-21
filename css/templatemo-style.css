@@ -221,10 +221,17 @@ h1,h2,h3,h4,h5
     {
         text-align: center;
     }
-
+#work .row
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 #work .media
     {
-      margin-top: 30px;
+        margin-top: 30px;
     }
 	
 #work .media .fa
@@ -299,6 +306,8 @@ h1,h2,h3,h4,h5
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 #portfolio h2
     {
@@ -329,7 +338,7 @@ h1,h2,h3,h4,h5
     }
 #portfolio h4 h5
     {
-        font-size: 0.5vw;
+        font-size: 1vw;
     }
 #portfolio p
     {
