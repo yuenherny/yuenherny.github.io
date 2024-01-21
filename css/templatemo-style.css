@@ -294,20 +294,27 @@ h1,h2,h3,h4,h5
         background: #1a1a1a;
         text-align: center;
     }
+#portfolio .row
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 #portfolio h2
     {
         padding-bottom: 30px;
     }
-#portfolio a {
-    color: #ffffff;
-}
+#portfolio a 
+    {
+        color: #ffffff;
+    }
 #portfolio .portfolio-thumb
     {
         overflow: hidden;
-        position: relative;
+        /* position: relative; */
         margin-bottom: 30px;
     }
-#portfolio .portfolio-thumb .portfolio-overlay
+#portfolio .portfolio-overlay
     {
         background: #D43F52;
         top: 0;
@@ -316,9 +323,8 @@ h1,h2,h3,h4,h5
         bottom: 0;
         opacity: 0;
         width: 100%;
-        height: 100%;
+        height: 90%;
         position: absolute;
-        padding-top: 60px;
         transition: all 0.4s ease-in-out;
     }
 #portfolio .portfolio-thumb:hover .portfolio-overlay
@@ -333,8 +339,8 @@ h1,h2,h3,h4,h5
 
 #contact address
     {
-      padding-bottom: 18px;
-      display: flex;
+        padding-bottom: 18px;
+        display: flex;
     }
 	
 #contact .contact-title
