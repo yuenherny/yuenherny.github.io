@@ -8,10 +8,10 @@ Each phase is a separate PR and ends with a version tag, so any phase can be rol
 
 | # | Decision | Options | Recommendation |
 |---|---|---|---|
-| D1 | `archived/version_0/` | (a) delete · (b) keep + `noindex`, drop analytics · (c) migrate unique projects (ROBOCON, wave energy, Katak Detector, Streamlit validator) then delete | (c) |
-| D2 | Long-term stack | (a) keep jQuery/Bootstrap 3, upgrade only · (b) plain HTML/CSS/vanilla JS, no framework · (c) static site generator (Astro / Jekyll) | Decide after Phase 2; (b) if content stays one page |
-| D3 | Analytics | (a) keep GA4 + consent banner · (b) cookieless (GoatCounter / Plausible) · (c) remove | (b) |
-| D4 | Rewrite git history to drop ~98 MB of old images | (a) yes, `git filter-repo` + force-push · (b) no | (b) — tag `v1.0.0` would no longer match, low benefit |
+| D1 | `archived/version_0/` | (a) delete · (b) keep + `noindex`, drop analytics · (c) migrate ROBOCON project(s) then delete | **Open** — wave energy, Katak Detector and Streamlit validator excluded; ROBOCON under review |
+| D2 | Long-term stack | (a) keep jQuery/Bootstrap 3, upgrade only · (b) plain HTML/CSS/vanilla JS, no framework · (c) static site generator (Astro / Jekyll) | **Decided: (b)** until a framework is genuinely needed |
+| D3 | Analytics | (a) keep GA4 + consent banner · (b) cookieless (GoatCounter / Umami / Cloudflare / Plausible) · (c) remove | **Open** — under discussion |
+| D4 | Rewrite git history to drop ~98 MB of old images | (a) yes, `git filter-repo` + force-push · (b) no | **Decided: (b)** |
 
 ## Phase 1 — Quick fixes → `v1.1.0`
 
@@ -57,9 +57,9 @@ Est. ~1–2 h.
 3. `.editorconfig`.
 4. README (#17): what it is, how to run locally (`python3 -m http.server`), how it deploys, credits/licence for templatemo and vendored libraries.
 
-## Phase 4 — Optional rewrite → `v2.0.0`
+## Phase 4 — Rewrite to plain HTML/CSS → `v2.0.0`
 
-Only if D2 = (b) or (c). Est. 1–3 days.
+Confirmed (D2 = b). Phase 2's jQuery/Bootstrap upgrade can be skipped if Phase 4 follows soon after. Est. 1–3 days.
 
 - Rebuild layout in semantic HTML + modern CSS (grid, custom properties, `prefers-color-scheme`, `prefers-reduced-motion`), no jQuery/Bootstrap.
 - Move project data to a single JSON/YAML source so adding a project is a one-line change.
