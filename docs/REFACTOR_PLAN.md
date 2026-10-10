@@ -6,12 +6,12 @@ Each phase is a separate PR and ends with a version tag, so any phase can be rol
 
 ## Open decisions
 
-| # | Decision | Options | Recommendation |
-|---|---|---|---|
-| D1 | `archived/version_0/` | (a) delete · (b) keep + `noindex`, drop analytics · (c) migrate ROBOCON project(s) then delete | **Open** — wave energy, Katak Detector and Streamlit validator excluded; ROBOCON under review |
-| D2 | Long-term stack | (a) keep jQuery/Bootstrap 3, upgrade only · (b) plain HTML/CSS/vanilla JS, no framework · (c) static site generator (Astro / Jekyll) | **Decided: (b)** until a framework is genuinely needed |
-| D3 | Analytics | (a) keep GA4 + consent banner · (b) cookieless (GoatCounter / Umami / Cloudflare / Plausible) · (c) remove | **Open** — under discussion |
-| D4 | Rewrite git history to drop ~98 MB of old images | (a) yes, `git filter-repo` + force-push · (b) no | **Decided: (b)** |
+| #   | Decision                                         | Options                                                                                                                              | Recommendation                                                                                |
+| --- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| D1  | `archived/version_0/`                            | (a) delete · (b) keep + `noindex`, drop analytics · (c) migrate ROBOCON project(s) then delete                                       | **Open** — wave energy, Katak Detector and Streamlit validator excluded; ROBOCON under review |
+| D2  | Long-term stack                                  | (a) keep jQuery/Bootstrap 3, upgrade only · (b) plain HTML/CSS/vanilla JS, no framework · (c) static site generator (Astro / Jekyll) | **Decided: (b)** until a framework is genuinely needed                                        |
+| D3  | Analytics                                        | (a) keep GA4 + consent banner · (b) cookieless (GoatCounter / Umami / Cloudflare / Plausible) · (c) remove                           | **Open** — under discussion                                                                   |
+| D4  | Rewrite git history to drop ~98 MB of old images | (a) yes, `git filter-repo` + force-push · (b) no                                                                                     | **Decided: (b)**                                                                              |
 
 ## Phase 1 — Quick fixes → `v1.1.0`
 

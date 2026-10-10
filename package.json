@@ -1,0 +1,19 @@
+{
+  "name": "yuenherny-github-io",
+  "private": true,
+  "description": "Personal one-page portfolio site for GitHub Pages, written in plain HTML, CSS and vanilla JavaScript.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint:html": "html-validate index.html",
+    "lint:css": "stylelint --allow-empty-input \"css/style.css\"",
+    "lint": "npm run lint:html && npm run lint:css",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "html-validate": "11.16.2",
+    "prettier": "3.9.10",
+    "stylelint": "17.16.0",
+    "stylelint-config-standard": "40.0.0"
+  }
+}
