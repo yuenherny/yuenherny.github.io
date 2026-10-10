@@ -34,7 +34,7 @@
     const full = rotate.textContent.trim();
     const phrases = full
       .split(",")
-      .map((phrase) => phrase.trim())
+      .map((phrase) => phrase.replace(/\s+/g, " ").trim())
       .filter(Boolean);
     if (!reduceMotion && phrases.length > 1) {
       // Screen readers get the full list once; the visible rotating text is hidden from them.
