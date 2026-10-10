@@ -1,21 +1,5 @@
 node_modules/
 package-lock.json
 images/
-fonts/
-*.min.*
-css/bootstrap.min.css
-css/animate.min.css
-css/font-awesome.min.css
-css/jquery.fullPage.css
-css/templatemo-style.css
-js/jquery.js
-js/bootstrap.min.js
-js/jquery.fullPage.js
-js/smoothscroll.js
-js/wow.min.js
-js/jquery.simple-text-rotator.js
-js/custom.js
 LICENSE
 favicon.ico
-# TEMPORARY: remove once index.html is rewritten
-index.html

@@ -33,7 +33,7 @@ GitHub Pages builds from the `main` branch automatically on push. CI (`.github/w
 
 ## Credits
 
-Original layout based on the [Lavish template by templatemo](https://templatemo.com/tm-458-lavish). Photos in `images/` from their respective sources.
+Original layout based on the [Lavish template by templatemo](https://templatemo.com/tm-458-lavish). Icons are inline SVGs derived from [Font Awesome 4](https://fontawesome.com/v4/license/) (SIL OFL 1.1). Photos in `images/` from their respective sources.
 
 ## Licence
 
